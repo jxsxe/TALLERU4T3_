@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tema 2: Interfaz y bloques</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    /* Estilos adicionales para mejorar la presentación */
+    .highlight {
+      background-color: #f0f8ff;
+      border-left: 5px solid #4a90e2;
+      padding: 10px 15px;
+      margin: 20px 0;
+      font-style: italic;
+      color: #333;
+    }
+    .block-types {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 10px;
+    }
+    .block-type {
+      background-color: #4a90e2;
+      color: white;
+      padding: 15px 25px;
+      border-radius: 8px;
+      flex: 1 1 150px;
+      text-align: center;
+      font-weight: bold;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      transition: background-color 0.3s ease;
+      cursor: default;
+    }
+    .block-type:hover {
+      background-color: #357ABD;
+    }
+    .interface-image {
+      max-width: 100%;
+      height: auto;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <nav><a href="index.html">Inicio</a></nav>
+  <header><h1>Tema 2: Interfaz y bloques</h1></header>
+  <div class="content">
+    <h2>Área de programación</h2>
+    <p>
+      La interfaz de Scratch está diseñada para ser intuitiva y accesible para usuarios de todas las edades. El área de programación es donde se ensamblan los bloques para crear el código visual. Los bloques están organizados en categorías por colores y funciones, lo que facilita encontrar el bloque adecuado para cada acción.
+    </p>
+    <img src="assets/img/scratch-interface.png" alt="Interfaz de Scratch" class="interface-image">
+    <p>
+      En la parte izquierda, encontrarás la paleta de bloques, agrupados en categorías como movimiento, apariencia, sonido, eventos, control y más. En el centro está el área de scripts, donde arrastras y encajas los bloques para construir tus programas. A la derecha, verás el escenario donde se ejecuta tu proyecto y los sprites (personajes o elementos) que puedes programar.
+    </p>
+
+    <h2>Tipos de bloques</h2>
+    <p>Los bloques en Scratch se clasifican según su función y color, cada tipo cumple un rol específico en la programación:</p>
+    <div class="block-types">
+      <div class="block-type" style="background-color:#4C97FF;">Movimiento</div>
+      <div class="block-type" style="background-color:#9966FF;">Apariencia</div>
+      <div class="block-type" style="background-color:#FFBF00;">Eventos</div>
+      <div class="block-type" style="background-color:#FF6E6E;">Control</div>
+      <div class="block-type" style="background-color:#FF8C1A;">Sensores</div>
+      <div class="block-type" style="background-color:#33CC33;">Operadores</div>
+      <div class="block-type" style="background-color:#FF6680;">Variables</div>
+    </div>
+
+    <div class="highlight">
+      <strong>Dato interesante:</strong> Los bloques se encajan como piezas de un rompecabezas, lo que evita errores de sintaxis y hace que la programación sea más visual y divertida.
+    </div>
+
+    <h3>Descripción breve de algunos tipos de bloques:</h3>
+    <ul>
+      <li><strong>Movimiento:</strong> Permiten controlar la posición y dirección de los sprites, como avanzar, girar o saltar a coordenadas específicas.</li>
+      <li><strong>Apariencia:</strong> Cambian la apariencia de los sprites, como mostrar o esconder, cambiar disfraces o emitir mensajes.</li>
+      <li><strong>Eventos:</strong> Son bloques que inician acciones, por ejemplo, al presionar la bandera verde o al recibir un mensaje.</li>
+      <li><strong>Control:</strong> Permiten crear estructuras de control como bucles y condicionales para manejar el flujo del programa.</li>
+      <li><strong>Sensores:</strong> Detectan condiciones externas, como tocar un color o la posición del mouse.</li>
+      <li><strong>Operadores:</strong> Realizan cálculos matemáticos y operaciones lógicas, fundamentales para la toma de decisiones.</li>
+      <li><strong>Variables:</strong> Guardan y manipulan datos que pueden cambiar durante la ejecución del programa.</li>
+    </ul>
+  </div>
+  <footer><button onclick="location.href='t3.html'">Siguiente</button></footer>
+</body>
+</html>
